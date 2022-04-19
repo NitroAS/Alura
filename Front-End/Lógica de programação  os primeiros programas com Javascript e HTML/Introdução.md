@@ -1,0 +1,1 @@
+Nesse curso de Lógica eu to usando o Editor Sublime Text para fazer a construções de códigos
