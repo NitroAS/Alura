@@ -59,6 +59,25 @@
 .cabecalhoPrincipal-nav{
     display: flex;
 }
+.videoSobre .container{
+    display: flex;
+}
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* parte do Flex-grow e Flex-shrink é da PT4 */
+    flex-grow: 1;
+}
+.videoSobre-sobre-list
+{
+    flex-grow: 3;
+}
+
+.videoSobre-video {
+    flex-grow: 1;
+    flex-shrink: 2; 
+}
 
 /* PT4 */
 
@@ -107,6 +126,16 @@
 }
 .rodapePrincipal-contatoForm-fieldset {
     justify-content:center
+}
+.cabecalhoPrincipal-nav-link-app {
+    order: -1;
+}
+
+.videoSobre .container {
+    flex-direction: column;
+}
+.videoSobre-video {
+    margin: 0 auto;
 }
 
 }

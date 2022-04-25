@@ -23,3 +23,5 @@ Dando um reload vemos que todos os objetos foram arrumados inclusive o primeiro:
 Isso acontece pois o n do primeiro elemento equivale a 0, então, 4x0 + 1 = 1 e por isso ele é ajustado! No segundo item o n =1, assim, 4x1 + 1 = 5, no terceiro ícone n = 2, 4x2 + 1 = 9 e assim por diante.
 
 Utilizando o nth, que é relativamente fácil de usar, solucionamos a questão da distribuição! O que fizemos foi um gride de caixas organizadamente posicionadas. O flex é capaz de fazer gride, ainda assim, não existe uma maneira fácil de espaçar os elementos. Foi preciso utilizar não apenas o nth mas também fazer contas com a largura e a margem para resolver o problema!
+
+
